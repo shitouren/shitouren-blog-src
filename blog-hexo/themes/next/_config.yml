@@ -94,9 +94,9 @@ index_with_subtitle: false
 menu:
   home: / || home
   #about: /about/ || user
-  #tags: /tags/ || tags
-  #categories: /categories/ || th
-  archives: /archives/ || archive
+  tags: /tags/ || tags
+  categories: /categories/ || th
+  #archives: /archives/ || archive
   #schedule: /schedule/ || calendar
   #sitemap: /sitemap.xml || sitemap
   #commonweal: /404/ || heartbeat
@@ -155,6 +155,8 @@ links_layout: block
 # in theme directory(source/images): /images/avatar.gif
 # in site  directory(source/uploads): /uploads/avatar.gif
 #avatar: /images/avatar.gif
+#avatar: /images/shitouren.jpg
+avatar: /images/yexiang.jpg
 
 # Table Of Contents in the Sidebar
 toc:
@@ -253,6 +255,19 @@ post_copyright:
   license: CC BY-NC-SA 3.0
   license_url: https://creativecommons.org/licenses/by-nc-sa/3.0/
 
+# ---------------------------------------------------------------
+# Gittalk Settings
+# ---------------------------------------------------------------
+
+gitalk:
+  enable: true
+  githubID: shitouren
+  repo: shitouren.github.io
+  ClientID: c00de6101d1e2f3ce59d
+  ClientSecret: 37fca5f03421b67f43ad5dcda80460d5d78702a3
+  owrner: shitouren
+  adminUser: shitouren
+  distractionFreeMode: true
 
 # ---------------------------------------------------------------
 # Misc Theme Settings
@@ -604,7 +619,7 @@ algolia_search:
 # Local search
 # Dependencies: https://github.com/flashlab/hexo-generator-search
 local_search:
-  enable: false
+  enable: true
   # if auto, trigger search by changing input
   # if manual, trigger search by pressing enter key or search button
   trigger: auto
