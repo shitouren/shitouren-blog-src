@@ -27,20 +27,24 @@ override: false
 # For example, you put your favicons into `hexo-site/source/images` directory.
 # Then need to rename & redefine they on any other names, otherwise icons from Next will rewrite your custom icons in Hexo.
 favicon:
-  small: /images/favicon-16x16-next.png
-  medium: /images/favicon-32x32-next.png
-  apple_touch_icon: /images/apple-touch-icon-next.png
-  safari_pinned_tab: /images/logo.svg
+  #small: /images/favicon-16x16-next.png
+  #medium: /images/favicon-32x32-next.png
+  #apple_touch_icon: /images/apple-touch-icon-next.png
+  #safari_pinned_tab: /images/logo.svg
+  small: /images/favicon-16x16-shitouren.png
+  medium: /images/favicon-32x32-shitouren.png
+  apple_touch_icon: /images/apple-touch-icon-shitouren.png
+  safari_pinned_tab: /images/safari-pinned-tab-shitouren.svg
   #android_manifest: /images/manifest.json
   #ms_browserconfig: /images/browserconfig.xml
 
 # Set default keywords (Use a comma to separate)
-keywords: "Hexo, NexT"
+keywords: "十二弦, 石头人，叶湘, chord12, shitouren, yexiang841"
 
 # Set rss to false to disable feed link.
 # Leave rss as empty to use site's feed link.
 # Set rss to specific value if you have burned your feed already.
-rss:
+rss: /atom.xml
 
 footer:
   # Specify the date when the site was setup.
@@ -368,7 +372,7 @@ han: false
 #swiftype_key:
 
 # Baidu Analytics ID
-#baidu_analytics:
+baidu_analytics: 17c008a2862249c2955c8bc267c5ec81
 
 # Duoshuo ShortName
 #duoshuo_shortname:
@@ -684,7 +688,8 @@ motion:
     post_body: slideDownIn
     coll_header: slideLeftIn
     # Only for Pisces | Gemini.
-    sidebar: slideUpIn
+    #sidebar: slideUpIn
+    sidebar: swoopIn
 
 # Fancybox
 fancybox: true

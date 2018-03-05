@@ -3,9 +3,12 @@ title: 塑胶海洋
 date: 2018-02-28 11:16:38
 category: "公益"
 tags: [公益]
+copyright: true
 comments: true
 toc: true
 ---
+
+![图片加载中](A-Plastic-Ocean-1.jpg)
 
 我们扔到海里的塑料，最后去了哪里？
 
@@ -49,5 +52,5 @@ toc: true
 
 但目前最可怕的一个，依然是来自人类自己的杰作：塑胶海洋。
 
-
 [纪录片：【塑胶海洋】](http://c.open.163.com/mob/video.htm?plid=MD5T8P032&mid=MD6D18E2J)
+

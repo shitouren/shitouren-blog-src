@@ -3,10 +3,10 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: 三江学徒
-subtitle: 互联网工匠
-description: 所以更新会很慢
-author: 叶湘
+title: 十二弦
+subtitle: 互联网工匠 | 未认证知识界网民
+description: 是我，所以更新会很慢
+author: shitouren
 language: zh-Hans
 timezone:
 
@@ -34,7 +34,7 @@ titlecase: false # Transform title into titlecase
 external_link: true # 在新标签中打开一个外部链接，默认为true
 filename_case: 0    #转换文件名，1代表小写；2代表大写；默认为0，意思就是创建文章的时候，是否自动帮你转换文件名，默认就行，意义不大。
 render_drafts: false  #是否渲染_drafts目录下的文章，默认为false
-post_asset_folder: false #启动 Asset 文件夹
+post_asset_folder: true #启动 Asset 文件夹
 relative_link: false    #把链接改为与根目录的相对位址，默认false
 future: true        #显示未来的文章，默认false
 highlight:  #代码块的设置
@@ -81,6 +81,8 @@ search:
 
 # Extensions
 ## Plugins: https://hexo.io/plugins/
+plugins: hexo-generate-feed
+
 ## Themes: https://hexo.io/themes/
 #theme: landscape
 theme: next
