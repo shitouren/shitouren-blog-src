@@ -12,7 +12,8 @@ timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://shitouren.github.io
+#url: http://shitouren.github.io
+url: https://www.shitouren.com
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -86,6 +87,10 @@ plugins: hexo-generate-feed
 ## Themes: https://hexo.io/themes/
 #theme: landscape
 theme: next
+
+# ShareSDK
+sharesdk: true
+shareSDKappkey: 24738c27a317d
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
